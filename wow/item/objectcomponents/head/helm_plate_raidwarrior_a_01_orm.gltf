@@ -1,0 +1,294 @@
+{
+	"asset": {
+		"version": "2.0",
+		"generator": "wow.export v0.1.65 win-x64 [d1c6caee-c9d0-469b-8ef3-69abea558672]"
+	},
+	"nodes": [
+		{
+			"name": "helm_plate_raidwarrior_a_01_orm",
+			"children": [
+				1,
+				4
+			]
+		},
+		{
+			"name": "helm_plate_raidwarrior_a_01_orm",
+			"children": [
+				2
+			]
+		},
+		{
+			"name": "bone_0_p",
+			"translation": [
+				-0.07901240140199661,
+				-0.11789570748806,
+				-0.017007412388920784
+			],
+			"children": [
+				3
+			]
+		},
+		{
+			"name": "bone_0"
+		},
+		{
+			"name": "helm_plate_raidwarrior_a_01_orm_Geoset0",
+			"mesh": 0,
+			"skin": 0
+		}
+	],
+	"scenes": [
+		{
+			"name": "helm_plate_raidwarrior_a_01_orm_Scene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"buffers": [
+		{
+			"uri": "helm_plate_raidwarrior_a_01_orm.bin",
+			"byteLength": 7888
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 1860,
+			"byteOffset": 0,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1860,
+			"byteOffset": 1860,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 620,
+			"byteOffset": 3720,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 620,
+			"byteOffset": 4340,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 64,
+			"byteOffset": 4960
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1240,
+			"byteOffset": 5024,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1240,
+			"byteOffset": 6264,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 384,
+			"byteOffset": 7504,
+			"target": 34963
+		}
+	],
+	"accessors": [
+		{
+			"name": "POSITION",
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 155,
+			"type": "VEC3",
+			"min": [
+				-0.3685213625431061,
+				-0.48748859763145447,
+				-0.294562965631485
+			],
+			"max": [
+				0.24279065430164337,
+				0.19937962293624878,
+				0.2976129651069641
+			]
+		},
+		{
+			"name": "NORMAL",
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 155,
+			"type": "VEC3",
+			"min": [
+				-0.9727917313575745,
+				-0.7942608594894409,
+				-0.99752277135849
+			],
+			"max": [
+				0.9397565722465515,
+				0.9991076588630676,
+				0.9949690699577332
+			]
+		},
+		{
+			"name": "JOINTS_0",
+			"byteOffset": 0,
+			"componentType": 5121,
+			"count": 155,
+			"type": "VEC4",
+			"bufferView": 2,
+			"min": [
+				0,
+				0,
+				0,
+				0
+			],
+			"max": [
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"name": "WEIGHTS_0",
+			"byteOffset": 0,
+			"componentType": 5121,
+			"count": 155,
+			"normalized": true,
+			"type": "VEC4",
+			"bufferView": 3,
+			"min": [
+				255,
+				0,
+				0,
+				0
+			],
+			"max": [
+				255,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"name": "INV_BIND_MATRICES",
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1,
+			"type": "MAT4",
+			"bufferView": 4,
+			"min": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0.07901240140199661,
+				0.11789570748806,
+				0.017007412388920784,
+				1
+			],
+			"max": [
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0,
+				0,
+				0,
+				1,
+				0,
+				0.07901240140199661,
+				0.11789570748806,
+				0.017007412388920784,
+				1
+			]
+		},
+		{
+			"name": "TEXCOORD_0",
+			"bufferView": 5,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 155,
+			"type": "VEC2",
+			"min": [
+				0.006926299538463354,
+				0.003460824489593506
+			],
+			"max": [
+				0.994611382484436,
+				0.9951242208480835
+			]
+		},
+		{
+			"name": "TEXCOORD_1",
+			"bufferView": 6,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 155,
+			"type": "VEC2",
+			"min": [
+				0,
+				0
+			],
+			"max": [
+				0,
+				0
+			]
+		},
+		{
+			"bufferView": 7,
+			"byteOffset": 0,
+			"componentType": 5121,
+			"count": 384,
+			"type": "SCALAR"
+		}
+	],
+	"meshes": [
+		{
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"JOINTS_0": 2,
+						"WEIGHTS_0": 3,
+						"TEXCOORD_0": 5,
+						"TEXCOORD_1": 6
+					},
+					"indices": 7,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"scene": 0,
+	"skins": [
+		{
+			"name": "helm_plate_raidwarrior_a_01_orm_Armature",
+			"joints": [
+				3
+			],
+			"inverseBindMatrices": 4,
+			"skeleton": 0
+		}
+	]
+}
